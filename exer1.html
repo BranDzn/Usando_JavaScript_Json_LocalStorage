@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Carregar o jquery primeiro-->
+    <script src="jquery.min.js"></script>
+    <script src="exer1.js"></script>
+    <title>Armazenando dados no localStorage</title>
+</head>
+<body>
+    <!--Pedir dados ao usúario-->
+    <form>
+        Digite seu nome:<input type="text" id="txtnome"><br>
+        Digite sua idade:<input type="text" id="txtidade"><br>
+        Digite seu endereço:<input type="text" id="txtendereco"><br>
+        Digite seu RGM:<input type="text" id="txtrgm"><br>
+        <button type="button" id="btn">Guardar dados no localStorage</button>
+        <button type="button" id="btn2">Mostrar dados cadastrados na tabela</button>
+    </form>
+    <!--Para mostrarmos por exemplo uma tabela que criamos no JS, necessitamos de uma DIV, pois usaremos a DIV, para mostrar o conteudo do JS-->
+    <div id="mostrar"></div>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="detran.js"></script>
+    <script src="exerdetran.js"></script>
+    <title>Exercicio detran</title>
+    <style>
+       #tabelaleve{
+           background:rgb(20, 163, 75);
+           float:left;
+           margin:7px;
+           border-radius:30px;
+       }
+
+       #tabelamedia{
+            background:rgb(212, 233, 28);
+            float:left;
+            margin:7px;
+            border-radius:30px;
+        }
+
+        #tabelagrave{
+            background:rgba(112, 87, 87, 0.877);
+            float:left;
+            margin:7px;
+            border-radius:30px;
+        }
+
+        #tabelagravissima{
+            background:#000;
+            color:#fff;
+            float:left;
+            margin:7px;
+            border-radius:30px;
+        }
+
+        tr,th{
+            text-align:center;
+            border-bottom:1px solid black;
+        }
+
+        td#conteudo{
+            text-align:left;
+            border-top:1px solid black;
+        }
+
+        td#content{
+            border-top:1px solid black;
+            border-right:1px solid black;
+        }
+
+        img{
+            background:#fff;
+
+        }
+
+        #content2{
+            border-top:1px solid white;
+            border-right:1px solid white;
+        }
+
+        #conteudo2{
+            text-align:left;
+            border-top:1px solid white;
+        }
+
+        #titulo2{
+            border-bottom:1px solid white;
+        }
+
+        #img2{
+            border:1px solid white;
+        }
+    </style>
+</head>
+<body id="fundo">
+    <div id="mostra"></div><!--Aki mostrará todas as tabelas (leve,media,grave,gravissima)-->
+    <h1>Medias das multas</h1>
+    <div id="medialeve">Média das multas leves: </div>
+    <div id="mediamedia">Média das multas médias: </div>
+    <div id="mediagrave">Média das multas graves: </div>
+    <div id="mediagravissima">Média das multas gravissimas: </div>
+</body>
+</html>

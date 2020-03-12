@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="exerlocalstorage.js"></script>
+    <title>localStorage</title>
+    <style>  
+        h1{
+            color:red;
+        }
+
+        table{
+            background:#000;
+        }
+
+        td#media{
+            text-align:center;
+
+        }
+
+        #resultado{
+            background:#000;
+            width:100px;
+            height:100px;
+            color:#fff;
+        }
+
+
+    </style>
+</head>
+<body>
+    <form>
+        Nome:<input type="text" id="txtnome"><br>
+        RGM:<input type="text" id="txtrgm"><br>
+        Nota da avaliaçâo parcial:<input type="text" id="txtnotaparcial"><br>
+        Nota do projeto:<input type="text" id="txtnotaprojeto"><br>
+        Nota da avaliaçâo regimental:<input type="text" id="txtnotaregimental"><br>
+        <button type="button" id="btn1">Cadastrar</button>
+        <button type="button" id="btn2">Exibir</button>
+        <button type="button" id="btn3">Cadastrar apenas nomes</button>
+    </form>
+
+    <div id="mostra"></div>
+    <div id="mostratabela"></div>
+    <div id="dadosvetor"></div>
+</body>
+</html>
